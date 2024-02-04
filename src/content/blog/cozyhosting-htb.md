@@ -1,7 +1,7 @@
 ---
 author: Nithissh S
-pubDatetime: 2023-09-26T15:22:00Z
-modDatetime: 2023-09-26T09:12:47.400Z
+pubDatetime: 2023-09-26
+modDatetime: 2023-09-26
 title: Cozyhosting - HTB
 slug: cozyhosting-htb
 featured: false
