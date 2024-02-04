@@ -3,35 +3,39 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-# Meet Nithissh S
 
-## Background
-- Senior Security Engineer based in Chennai, Tamilnadu, India.
-- Hacker, AppSec researcher, and speaker with 4+ years of experience in Application Security.
+# Nithissh S - Security Engineer ✨
 
-## Expertise
-- Bug Bounty hunting, Code review, Cloud security (AWS), SAST & DAST.
+**Greetings!** I'm Nithissh, a seasoned *Security Engineer* based in Chennai, India, weaving my expertise in Bug Bounty hunting, Code review, and Cloud security. With over 4 years of experience, I've orchestrated impactful projects, unveiled critical vulnerabilities, and earned accolades, including the prestigious Bug Bounty Hunter of the Year.
 
-## Achievements
-- Led a team in a 30-day security research project, uncovering 50+ critical CVEs in Wordpress Plugins at PatchStack.
-- Spearheaded the development of a DAST solution at Tata Elxsi, resulting in zero reported security issues.
+### 🌟 **Highlights:**
+- Led a team in a 30-day security research project, unveiling 50+ critical CVEs.
+- Spearheaded the development of a cutting-edge DAST solution, resulting in a flawless security record.
+- Recognized by the Government of the UK for unmasking a remote code execution vulnerability.
 
-## Speaking Engagements
-- Featured speaker at OWASP Chennai Chapter and 0xCode Hackers Live Event.
+### 🎤 **Speaking Engagements:**
+- Illuminated the stage at OWASP Chennai Chapter on "Hacking Porn and Dating Sites."
+- Shared insights at 0xCode Hackers Live Event in Pune on "Hacking Human Vulnerabilities for Infosec and Bug Bounties."
 
-## Awards
-- Received a Challenge Coin from the Government of UK for identifying an RCE vulnerability.
-- Named Bug Bounty Hunter of the Year at Seasides Conference Goa.
+### ✍️ **Writing:**
+- Authored captivating articles on leaked databases, OTP login exploitation, and SSTI leading to RCE.
 
-## Work Experience
-- **Vulnerability Analyst II at Mastercard:** Conducting cutting-edge penetration testing.
-- **Security Engineer at Tata Elxsi:** Leading DAST solution development.
+### 🏆 **Awards:**
+- Proud recipient of a Challenge Coin from the Government of the UK.
+- Crowned Bug Bounty Hunter of the Year at Seasides Conference Goa.
 
-## Education
+### 👨‍💼 **Work Experience:**
+- *Vulnerability Analyst II* at Mastercard, Pune.
+- *Security Engineer* at Tata Elxsi, Chennai.
+- *Cybersecurity Analyst* at ICTECH Engineering Solution, Chennai
+  
+### 🎓 **Education:**
 - B.Sc in Computer Science from Gurunanak College Velachery.
 
-## Certifications
+### 🚀 **Certifications:**
 - eWPTx, CRTP, CCSKv4, eWPT, eCPPTv2, AWS Certified Cloud Practitioner.
+
+Feel free to dive into my [LinkedIn](https://www.linkedin.com/in/nithisshs/) for an immersive journey. Attached is my updated resume, and if the prospect of joining forces resonates with you, let's connect! 🚀
 
 
 ## Security Advisories
