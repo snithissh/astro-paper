@@ -1,9 +1,9 @@
 ---
 author: Nithissh S
-pubDatetime: 2024-01-06T15:22:00Z
-modDatetime: 2024-01-06T09:12:47.400Z
-title: Cozyhosting - HTB 
-slug: otp-login-exploitation-and-authentication-bypass
+pubDatetime: 2023-09-26T15:22:00Z
+modDatetime: 2023-09-26T09:12:47.400Z
+title: Cozyhosting - HTB
+slug: cozyhosting-htb
 featured: false
 draft: false
 tags:
