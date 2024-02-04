@@ -38,7 +38,7 @@ title: "About"
 Feel free to dive into my [LinkedIn](https://www.linkedin.com/in/nithisshs/) for an immersive journey. Attached is my updated resume, and if the prospect of joining forces resonates with you, let's connect! 🚀
 
 
-## Security Advisories
+## 🛡️ **Security Advisories**
 
 | Vulnerability Type                         | CVE ID         |
 |--------------------------------------------|----------------|
