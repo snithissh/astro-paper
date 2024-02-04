@@ -2,9 +2,9 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://astro-paper-lilac-omega.vercel.app/", // replace this with your deployed domain
-  author: "Nithissh's Blog",
+  author: "Nithissh S",
   desc: "Esports athlete, Hacker, Gamer and AppSec Enthusiast",
-  title: "AstroPaper",
+  title: "Nithissh's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
