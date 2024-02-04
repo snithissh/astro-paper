@@ -35,8 +35,6 @@ title: "About"
 ### 🚀 **Certifications:**
 - eWPTx, CRTP, CCSKv4, eWPT, eCPPTv2, AWS Certified Cloud Practitioner.
 
-Feel free to dive into my [LinkedIn](https://www.linkedin.com/in/nithisshs/) for an immersive journey. Attached is my updated resume, and if the prospect of joining forces resonates with you, let's connect! 🚀
-
 
 ## 🛡️ **Security Advisories**
 
@@ -65,3 +63,5 @@ Feel free to dive into my [LinkedIn](https://www.linkedin.com/in/nithisshs/) for
 | Memory corruption / Integer Overflow in microweber/microweber | CVE-2022-1036  |
 | HTML Injection in create tag functionality in microweber/microweber | CVE-2022-3245  |
 | Origin validation Bypass in ikus060/rdiffweb | CVE-2022-3457  |
+
+Feel free to dive into my [LinkedIn](https://www.linkedin.com/in/nithisshs/) for an immersive journey. Attached is my updated resume [here](https://drive.google.com/file/d/1utTzJvUv29Hx4MbdOacon6T_q2AVJs9R/view?usp=drivesdk), and if the prospect of joining forces resonates with you, let's connect! 🚀
