@@ -3,7 +3,7 @@ author: Nithissh S
 pubDatetime: 2023-09-13
 modDatetime: 2023-09-13
 title: Analytics - HTB
-slug: leaked-database-and-smtp-credentials-through-env-file
+slug: analytics-htb
 featured: true
 draft: false
 tags:
