@@ -1,10 +1,8 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Me"
 ---
 
-
-# Nithissh S 
 
 ![](../../public/assets/Hackers-79.png)
 
