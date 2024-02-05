@@ -6,7 +6,7 @@ title: "About"
 
 # Nithissh S 
 
-![](../../assets/images/Hackers-79.png)
+![](https://github.com/snithissh/astro-paper/blob/main/public/assets/Hackers-79.png)
 
 **Greetings!** I'm Nithissh, a seasoned *Security Engineer* based in Chennai, India, weaving my expertise in Bug Bounty hunting, Code review, and Cloud security. With over 4 years of experience, I've orchestrated impactful projects, unveiled critical vulnerabilities, and earned accolades, including the prestigious Bug Bounty Hunter of the Year.
 
