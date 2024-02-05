@@ -3,7 +3,7 @@ author: Nithissh S
 pubDatetime: 2021-11-25
 modDatetime: 2022-11-25
 title: SSTI leads to RCE - US dept of Defence
-slug: updating-a-user-profile-leads-to-application-level-dos
+slug: ssti-leads-to-rce-in-us-dod
 featured: true
 draft: false
 tags:
@@ -16,15 +16,15 @@ description:
 
 Welcome everyone. Today, I would like to bring your attention to a critical security vulnerability that has been reported in VMware Workspace One and Identity Manager products, which are used by the US Department of Defense. This vulnerability, known as Server-side Template Injection (SSTI), can be leveraged by attackers to execute remote code on affected systems through the UUID parameter. The vulnerability has been officially reported to VMware by security researcher Steven Seeley and has been assigned the CVE-2022-22954 identifier. In this writeup, we will discuss the details of this vulnerability and the recommended steps to safeguard against potential attacks.
 
-#### Understanding the VMware Workspace ONE Access Vulnerability: CVE-2022-22954
+### Understanding the VMware Workspace ONE Access Vulnerability: CVE-2022-22954
 
 In April 2022, a security vulnerability was identified in the VMware Workspace ONE Access product, which can allow remote attackers to execute arbitrary code without authentication. The vulnerability has been assigned the identifier CVE-2022-22954. In this blog post, we will explore the details of this vulnerability, its potential impact, and the recommended steps to mitigate it.
 
-#### Overview of this Vulnerability
+### Overview of this Vulnerability
 
 The vulnerability lies within the customError.ftl template used by VMware Workspace ONE Access. The issue arises due to the usage of unsafe freemarker syntax, specifically from a call to eval on untrusted input. Attackers can exploit this vulnerability to execute code in the context of the horizon user, which can result in unauthorized access to sensitive information.
 
-#### Understanding the Favicon Hash Value and its vulnerability
+### Understanding the Favicon Hash Value and its vulnerability
 
 The Favicon hash value is a unique identifier of a website's icon, which is used to represent the website in a browser's address bar or tab. It is often accessed by appending the favicon.ico string to the website's domain name.
 
@@ -32,7 +32,7 @@ While this may seem like a harmless trick, it can be exploited by bad actors and
 
 As demonstrated by the CVE-2022-22954 vulnerability, attackers can use the Favicon hash value to their advantage when attempting to exploit vulnerabilities in systems and applications. It is crucial to implement appropriate security measures, such as secure coding practices and regular vulnerability assessments, to prevent potential exploitation of the Favicon hash value and other similar vulnerabilities.
 
-#### CVE-2022-22954 Exploitation: Attack Phase and Impact
+### CVE-2022-22954 Exploitation: Attack Phase and Impact
 
 In April 2022, while browsing Twitter after my workday, I came across a tweet by **Sherlock Secure (Udhaya Prakash)** who had shared a proof of concept and details about the **CVE-2022-22954** vulnerability advisory on his GitHub page. The proof of concept contained all the information required to exploit the vulnerability, from the favicon hash to the actual exploit. This discovery highlights the importance of regularly keeping up-to-date with security news and being vigilant about potential vulnerabilities in systems and applications. It is crucial to report any vulnerabilities identified through appropriate channels and follow responsible disclosure practices to ensure that they are addressed promptly.
 
