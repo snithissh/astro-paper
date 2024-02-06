@@ -4,7 +4,7 @@ pubDatetime: 2023-09-13
 modDatetime: 2023-09-13
 title: Leaked Database and SMTP credentials through .env file
 slug: leaked-database-and-smtp-credentials-through-env-file
-featured: true
+featured: false
 draft: false
 tags:
   - BugBounty
