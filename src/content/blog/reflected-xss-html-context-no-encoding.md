@@ -4,7 +4,7 @@ pubDatetime: 2024-02-06
 modDatetime: 2024-02-06
 title: Reflected XSS into HTML context with nothing encoded
 slug: reflected-xss-html-context-no-encoding
-featured: true
+featured: false
 draft: false
 tags:
   - XSS
