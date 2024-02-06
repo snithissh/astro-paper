@@ -4,7 +4,7 @@ pubDatetime: 2020-05-25
 modDatetime: 2020-05-25
 title: Uncovering an Exposed Grafana Dashboard through Javascript file
 slug: grafana-dashboard-exposure-through-js-file
-featured: true
+featured: false
 draft: false
 tags:
   - BugBounty
