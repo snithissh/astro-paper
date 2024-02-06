@@ -4,7 +4,7 @@ pubDatetime: 2023-06-23
 modDatetime: 2023-06-23
 title: Big IAM Challenge Writeup - AWS CTF
 slug: big-iam-challenge-aws
-featured: true
+featured: false
 draft: false
 tags:
   - Cloud Pentest
