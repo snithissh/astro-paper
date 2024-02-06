@@ -4,7 +4,7 @@ pubDatetime: 2021-05-28
 modDatetime: 2021-05-28
 title: Google Cloud Digital Leader - Part 1 
 slug: google-cdl-part-1
-featured: true
+featured: false
 draft: false
 tags:
   - Google Cloud Digital Leader
