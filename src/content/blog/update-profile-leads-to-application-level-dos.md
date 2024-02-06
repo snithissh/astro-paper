@@ -4,7 +4,7 @@ pubDatetime: 2022-07-11
 modDatetime: 2022-07-11
 title: Updating a user profile leads to Application level DOS
 slug: updating-a-user-profile-leads-to-application-level-dos
-featured: true
+featured: false
 draft: false
 tags:
   - CVEs
