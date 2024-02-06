@@ -15,7 +15,7 @@ description:
 
 ## Intro
 
-Welcome to our pod! Today, we're tackling XSS vulnerabilities in HTML contexts with no encoding. Our blog forum allows users to post, with featured blogs showcased on top. We'll test this vulnerability by injecting simple HTML like **'<h2>XSS'** and then escalate with an XSS payload like **'<img src=x onerror=confirm(1)>'** to see if execution occurs. Let's dive in!"
+Welcome to our pod! Today, we're tackling XSS vulnerabilities in HTML contexts with no encoding. Our blog forum allows users to post, with featured blogs showcased on top. We'll test this vulnerability by injecting simple HTML like `<h2>XSS` and then escalate with an XSS payload like `<img src=x onerror=confirm(1)>` to see if execution occurs. Let's dive in!"
 
 ## Solution
 
