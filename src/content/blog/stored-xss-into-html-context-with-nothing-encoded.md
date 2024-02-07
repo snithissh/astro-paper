@@ -10,7 +10,7 @@ tags:
   - XSS
   - Burp Certified Practitioner
 description:
-  Writeup of one portswigger XSS lab in an apprentice level where we don't need any encoding but with a simple XSS payload
+  Writeup of one portswigger XSS lab in an apprentice level where we don't need any encoding but with a simple XSS payload by adding comment on the blog post 
 ---
 
 ## Intro
