@@ -1,7 +1,7 @@
 ---
 author: Nithissh S
-pubDatetime: 2024-02-06
-modDatetime: 2024-02-06
+pubDatetime: 2024-02-07
+modDatetime: 2024-02-07
 title: DOM XSS in innerHTML sink using source location.search
 slug: lab-dom-xss-innerhtml-location-search
 featured: false
