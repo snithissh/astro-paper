@@ -3,14 +3,14 @@ author: Nithissh S
 pubDatetime: 2024-02-07
 modDatetime: 2024-02-07
 title: DOM XSS in innerHTML sink using source location.search
-slug: lab-dom-xss-innerhtml-location-search
+slug: dom-xss-innerhtml-location-search
 featured: false
 draft: false
 tags:
   - XSS
   - Burp Certified Practitioner
 description:
-This lab contains a DOM-based cross-site scripting vulnerability in the search blog functionality. It uses an innerHTML assignment, which changes the HTML contents of a div element, using data from location.search. 
+  This lab contains a DOM-based cross-site scripting vulnerability in the search blog functionality. It uses an innerHTML assignment, which changes the HTML contents of a div element, using data from location.search. 
 ---
 
 ## Intro
