@@ -6,8 +6,8 @@ title: Reflected DOM XSS
 slug: reflected-dom-xss
 featured: false
 draft: false
-tags:
-  - Burp Certified Practitoner
+  - XSS
+  - Burp Certified Practitioner
 description:
   This lab demonstrates a reflected DOM vulnerability. Reflected DOM vulnerabilities occur when the server-side application processes data from a request and echoes the data in the response. A script on the page then processes the reflected data in an unsafe way, ultimately writing it to a dangerous sink. 
 ---
