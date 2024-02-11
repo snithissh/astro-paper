@@ -1,7 +1,7 @@
 ---
 author: Nithissh S
-pubDatetime: 2023-02-11
-modDatetime: 2023-02-11
+pubDatetime: 2024-02-11
+modDatetime: 2024-02-11
 title: Reflected DOM XSS
 slug: reflected-dom-xss
 featured: false
