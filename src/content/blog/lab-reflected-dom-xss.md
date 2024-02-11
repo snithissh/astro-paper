@@ -6,6 +6,7 @@ title: Reflected DOM XSS
 slug: reflected-dom-xss
 featured: false
 draft: false
+tags:
   - XSS
   - Burp Certified Practitioner
 description:
