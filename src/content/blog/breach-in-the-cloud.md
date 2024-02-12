@@ -10,7 +10,7 @@ tags:
   - Pwnedlabs
   - Cloud Pentest
 description:
-  Easy level HackTheBox platform lab machine running Linux OS, containing a standard password, password transmission using an open communication channel and its untimely change, exploiting a vulnerability in Keepass.
+  Going through a incident simulation on AWS infrastructure where we will be doing cloudtrail log analysis and alot more..
 ---
 
 
