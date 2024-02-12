@@ -40,8 +40,3 @@ Now let’s try for an XSS payload like `<img src=x onerror=confirm(1)>`  where 
 
 
 ![](../../assets/images/portswigger/XSS/apprentice/xss-4.png)
-
-## Takeaway
-
-XSS vulnerabilities in HTML contexts without encoding can lead to malicious code execution. Always sanitize user input to prevent such attacks
-

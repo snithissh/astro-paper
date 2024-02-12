@@ -16,7 +16,7 @@ description:
 ## Intro 
 
 
-This lab contains a DOM-based XSS in the search query. It uses document.write function to writes data out to the page. The function is called with data from location.search, which you can control using the website URL. To solve this lab, perform a XSS attack that calls the alert function 
+This lab contains a DOM-based XSS in the search query. It uses document.write function to writes data out to the page. The function is called with data from location.search, which you can control using the website URL.
 
 
 ## Solution
