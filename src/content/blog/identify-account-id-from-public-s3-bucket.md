@@ -1,3 +1,19 @@
+---
+author: Nithissh S
+pubDatetime: 2024-02-12
+modDatetime: 2024-02-12
+title: Identify Account ID for the Public S3 Bucket
+slug: lab-identify-account-id-from-public-s3-bucket
+featured: false
+draft: false
+tags:
+  - Pwnedlabs
+  - Cloud Pentest
+description:
+  Simulation of identifying the Account IDs of AWS accounts through the public s3 bucket by exploiting the misconfiguration on s3 bucket's IAM policy
+---
+
+
 ## Identify Account ID for the Public S3 Bucket
 
 As an initial entry endpoints we have been provided with the following details 
@@ -11,13 +27,13 @@ As an initial entry endpoints we have been provided with the following details 
 
   
 
-Before even we are starting out, we can looking into the fundamentals of understanding `Account ID`  and How we can understand and exploit this misconfiguration
+Before even we are starting out the challenge, we can looking into the fundamentals of understanding `Account ID`  and How we can understand and exploit this misconfiguration
 
   
 
 ### Short intro on how Account ID works
 
-Account ID is 12 Digital Number like `1234567891234`  which helps in identifying the AWS accounts and we can also identify resource aligned with it by arn strings ( eg. `arn:aws:iam::1234567891234:role/dev` ) where the Account ID is `1234567891234`  being tied up 
+Account ID is 12 Digital Number like `1234567891234`  which helps in identifying the AWS accounts and we can also identify resource aligned with it through arn strings ( eg. `arn:aws:iam::1234567891234:role/dev` ) where the Account ID is `1234567891234` 
 
   
 
@@ -38,7 +54,7 @@ With the following IP addresss `54.204.171.32`  we have an HTTP application whi
 
   
 
-![](Files/image.png)  
+![](../../assets/images/research/identity-1.png)
 
   
 
@@ -50,7 +66,7 @@ In the mentioned s3 bucket, we can able to get the object which is image files a
 
   
 
-```
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -76,7 +92,7 @@ Before even going into main phase of exploitation, we need to some detail on our
 
   
 
-```
+```sh
 nits@FWS-CHE-LT-8869 09-02-2024 % curl -I "https://mega-big-tech.s3.amazonaws.com"
 HTTP/1.1 200 OK
 x-amz-id-2: dDHTbab4SDDNMz0NhYu1Qs48Ei+PaWgxNQ71tMXQLAluCkt8MzahXyI/tydcV6wsaZBr4bJL7JE=
@@ -94,7 +110,7 @@ Now, lets configure the AWS credentials as initially provided and let’s run `a
 
   
 
-```
+```sh
 nits@FWS-CHE-LT-8869 09-02-2024 % aws sts get-caller-identity --profile leakybucket
 {
     "UserId": "AIDAWHEOTHRF62U7I6AWZ",
@@ -109,7 +125,7 @@ With the current credentials, we don’t access to the s3 bucket where we have a
 
   
 
-```
+```sh
 nits@FWS-CHE-LT-8869 09-02-2024 % aws s3 ls s3://mega-big-tech --profile leakybucket
 
 An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Access Denied
@@ -121,7 +137,7 @@ Assume we have another user called `LeakyBucket`  we can check this account aga
 
   
 
-```
+```sh
 nits@FWS-CHE-LT-8869 09-02-2024 % s3-account-search arn:aws:iam::427648302155:role/LeakyBucket mega-big-tech
 Starting search (this can take a while)
 found: 1
@@ -150,7 +166,8 @@ Breaking down of the above command, we have same arn id with assuming a role cal
 
 Now in our AWS console, Go for the region as `us-east-1`  and sometimes you need to change it in console if you are like me where I’m from india it will be in `ap-southeast-1`
 
-![](Files/image%202.png)  
+
+![](../../assets/images/research/identity-2.png) 
 
   
 
@@ -158,12 +175,4 @@ In the EC2 service, we have a ability to look into the public snapshots ( Kind o
 
   
 
-![](Files/m0xiwdylckcxzsqkmhbdnbncy62clkt8.png)  
-
-  
-
-  
-
-  
-
-##
+![](../../assets/images/research/identity-3.png)
