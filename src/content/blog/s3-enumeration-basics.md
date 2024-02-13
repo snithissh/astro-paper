@@ -1,3 +1,18 @@
+---
+author: Nithissh S
+pubDatetime: 2024-02-13
+modDatetime: 2024-02-13
+title: Introduction to s3 enumeration - Pwnedlabs walkthrough
+slug: s3-enumeration-basics
+featured: false
+draft: false
+tags:
+  - Pwnedlabs
+  - Cloud Pentest
+description:
+  Learning on how we can enumerate s3 bucket which leads to credential leakage of another user and goes on...
+---
+
 ## AWS S3 Enumeration Basics 
 
   
