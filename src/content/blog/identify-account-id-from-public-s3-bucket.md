@@ -133,7 +133,7 @@ An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Acces
 
   
 
-Assume we have another user called `LeakyBucket`  we can check this account against the s3 bucket called `mega-big-tech`  and bruteforce their `Account ID`  using a tool [s3-account-search](https://github.com/WeAreCloudar/s3-account-search "https://github.com/WeAreCloudar/s3-account-search")
+Assume we have another role called `LeakyBucket`  we can check this account against the s3 bucket called `mega-big-tech`  and bruteforce their `Account ID`  using a tool [s3-account-search](https://github.com/WeAreCloudar/s3-account-search "https://github.com/WeAreCloudar/s3-account-search")
 
   
 
