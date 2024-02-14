@@ -1,8 +1,8 @@
 ---
 author: Nithissh S
-pubDatetime: 2024-02-11
-modDatetime: 2024-02-11
-title: Breach in the Cloud - Pwnedlabs walkthrough
+pubDatetime: 2024-02-14
+modDatetime: 2024-02-14
+title: Breach In the Cloud - Pwnedlabs walkthrough
 slug: breach-in-the-cloud
 featured: false
 draft: false
@@ -10,7 +10,7 @@ tags:
   - Pwnedlabs
   - Cloud Pentest
 description:
-  Going through a incident simulation on AWS infrastructure where we will be doing cloudtrail log analysis and alot more..
+  Going through a incident simulation on AWS infrastructure where we will be doing cloudtrail log analysis and alot more.. 
 ---
 
 
