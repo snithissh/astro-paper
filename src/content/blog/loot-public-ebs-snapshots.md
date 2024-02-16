@@ -13,13 +13,12 @@ description:
   Understanding on how we found the EBS snapshot which is publicly through IAM enumeration and we will learn how to exploit it 
 ---
 
-# Loot Public EBS Snapshots
 
 The scenario here is Huge Logistics, a titan in their industry, has invited you to simulate an "assume breach" scenario. They're handing you the keys to their kingdom - albeit, the basic AWS credentials of a fresh intern. Your mission, should you choose to accept it, is to navigate their intricate cloud maze, starting from this humble entry. Gain situational awareness, identify weak spots, and test the waters to see how far you can elevate your access. Can you navigate this digital labyrinth and prove that even the smallest breach can pose significant threats? The challenge is set. The game is on.
 
   
 
-### Initial entry point in order to do our tests
+## Initial entry point in order to do our tests
 
   
 
@@ -30,7 +29,7 @@ The scenario here is Huge Logistics, a titan in their industry, has invited you
 
   
 
-### Let’s get into an actual game of Enumeration 
+## Let’s get into an actual game of Enumeration 
 
   
 
@@ -226,7 +225,7 @@ If you see the above command output, where it sets attribute to `Group: all`  m
 
   
 
-### Exploit it !!!!
+## Exploit it !!!!
 
   
 
