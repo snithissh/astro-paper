@@ -1,7 +1,7 @@
 ---
 author: Nithissh S
-pubDatetime: 2024-02-15
-modDatetime: 2024-02-15
+pubDatetime: 2024-02-16
+modDatetime: 2024-02-16
 title: Loot Public EBS snapshots - Pwnedlabs walkthrough
 slug: loot-public-ebs-snapshots
 featured: false
@@ -19,7 +19,7 @@ The scenario here is Huge Logistics, a titan in their industry, has invited you
 
   
 
-# Initial entry point in order to do our tests
+### Initial entry point in order to do our tests
 
   
 
@@ -30,7 +30,7 @@ The scenario here is Huge Logistics, a titan in their industry, has invited you
 
   
 
-# Let’s get into an actual game of Enumeration 
+### Let’s get into an actual game of Enumeration 
 
   
 
@@ -226,7 +226,7 @@ If you see the above command output, where it sets attribute to `Group: all`  m
 
   
 
-# Exploit it !!!!
+### Exploit it !!!!
 
   
 
