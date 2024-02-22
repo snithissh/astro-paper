@@ -29,8 +29,7 @@ The scenario here is Huge Logistics, a global logistics leader, has enlisted yo
 | Account ID | ‎104506445608<br> |
 
   
-
-##   
+  
 
 ## Solution
 
@@ -38,10 +37,10 @@ As an initial entry point, we have provided with the following account number `1
 
   
 
-```
+```sh
 nits@FWS-CHE-LT-8869 ~ % aws rds describe-db-snapshots --snapshot-type public --include-public --profile mycreds | grep 104506445608
-            "DBSnapshotIdentifier": "arn:aws:rds:us-east-1:104506445608:snapshot:orders-private",
-            "DBSnapshotArn": "arn:aws:rds:us-east-1:104506445608:snapshot:orders-private",
+ "DBSnapshotIdentifier":"arn:aws:rds:us-east-1:104506445608:snapshot:orders-private",
+"DBSnapshotArn": "arn:aws:rds:us-east-1:104506445608:snapshot:orders-private",
 ```
 
   
